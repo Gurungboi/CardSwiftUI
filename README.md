@@ -1,4 +1,3 @@
 # CardSwiftUI
 
-
-![Screen Shot 2021-05-28 at 3 20 52 pm](https://user-images.githubusercontent.com/26203794/119938670-1ae12e80-bfd0-11eb-820c-eb19cbcf75c0.png)
+<img width="430" alt="Screen Shot 2021-05-28 at 4 29 03 pm" src="https://user-images.githubusercontent.com/26203794/119939874-d22a7500-bfd1-11eb-9e51-60c0b9d76a55.png">
