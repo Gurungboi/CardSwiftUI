@@ -13,6 +13,9 @@
 		10EB19F2265FC87D00E2C7FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EB19F1265FC87D00E2C7FC /* Preview Assets.xcassets */; };
 		10EB19FD265FC87E00E2C7FC /* CardSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB19FC265FC87E00E2C7FC /* CardSwiftUITests.swift */; };
 		10EB1A08265FC87E00E2C7FC /* CardSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EB1A07265FC87E00E2C7FC /* CardSwiftUIUITests.swift */; };
+		10EB1A19265FD6C000E2C7FC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EB1A18265FD6C000E2C7FC /* Colors.xcassets */; };
+		10ECA04C265FDEFD00312691 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ECA04B265FDEFD00312691 /* CustomFont.swift */; };
+		10ECA04F265FE28700312691 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ECA04E265FE28700312691 /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,14 @@
 		10EB1A03265FC87E00E2C7FC /* CardSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EB1A07265FC87E00E2C7FC /* CardSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSwiftUIUITests.swift; sourceTree = "<group>"; };
 		10EB1A09265FC87E00E2C7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EB1A18265FD6C000E2C7FC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		10EB1A1B265FDBCE00E2C7FC /* SofiaProLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProLight.otf; sourceTree = "<group>"; };
+		10EB1A1C265FDBCE00E2C7FC /* SofiaProSemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProSemiBold.otf; sourceTree = "<group>"; };
+		10EB1A1D265FDBCE00E2C7FC /* SofiaProRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProRegular.otf; sourceTree = "<group>"; };
+		10EB1A1E265FDBCE00E2C7FC /* SofiaProLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProLightItalic.ttf; sourceTree = "<group>"; };
+		10EB1A1F265FDBCF00E2C7FC /* SofiaProMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProMedium.otf; sourceTree = "<group>"; };
+		10ECA04B265FDEFD00312691 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		10ECA04E265FE28700312691 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +106,14 @@
 		10EB19E9265FC87C00E2C7FC /* CardSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				10ECA04D265FE27500312691 /* Extension */,
+				10EB1A17265FD69E00E2C7FC /* Supporting */,
 				10EB19EA265FC87C00E2C7FC /* CardSwiftUIApp.swift */,
 				10EB19EC265FC87C00E2C7FC /* ContentView.swift */,
 				10EB19EE265FC87D00E2C7FC /* Assets.xcassets */,
 				10EB19F3265FC87D00E2C7FC /* Info.plist */,
 				10EB19F0265FC87D00E2C7FC /* Preview Content */,
+				10ECA04B265FDEFD00312691 /* CustomFont.swift */,
 			);
 			path = CardSwiftUI;
 			sourceTree = "<group>";
@@ -128,6 +142,35 @@
 				10EB1A09265FC87E00E2C7FC /* Info.plist */,
 			);
 			path = CardSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		10EB1A17265FD69E00E2C7FC /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				10EB1A1A265FDBA100E2C7FC /* Fonts */,
+				10EB1A18265FD6C000E2C7FC /* Colors.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		10EB1A1A265FDBA100E2C7FC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				10EB1A1B265FDBCE00E2C7FC /* SofiaProLight.otf */,
+				10EB1A1E265FDBCE00E2C7FC /* SofiaProLightItalic.ttf */,
+				10EB1A1F265FDBCF00E2C7FC /* SofiaProMedium.otf */,
+				10EB1A1D265FDBCE00E2C7FC /* SofiaProRegular.otf */,
+				10EB1A1C265FDBCE00E2C7FC /* SofiaProSemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		10ECA04D265FE27500312691 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				10ECA04E265FE28700312691 /* Font+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EB1A19265FD6C000E2C7FC /* Colors.xcassets in Resources */,
 				10EB19F2265FC87D00E2C7FC /* Preview Assets.xcassets in Resources */,
 				10EB19EF265FC87D00E2C7FC /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10ECA04C265FDEFD00312691 /* CustomFont.swift in Sources */,
 				10EB19ED265FC87C00E2C7FC /* ContentView.swift in Sources */,
+				10ECA04F265FE28700312691 /* Font+Extension.swift in Sources */,
 				10EB19EB265FC87C00E2C7FC /* CardSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
